@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context=".ViewCapturedActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/niceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="44sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:text="Nicely Done!" />
+
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:minHeight="150dp"
+            android:minWidth="150dp"
+            android:layout_below="@id/niceTitle"/>
+
+        <ImageView
+            android:id="@+id/shareBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/imagePreview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/shareicon" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
